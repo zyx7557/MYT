@@ -103,6 +103,10 @@ extern NSString* const isShowHUD;
                        result:(id)responseObject
                       success:(void (^)(NSURLSessionDataTask *task, id responseObject))handleSuccess
                       failure:(void (^)(NSURLSessionDataTask *task, NSError *error))handleFailure {
+    
+#warning 临时用
+    handleSuccess(task, responseObject);
+    
 //    ComMetaModel* metaModel = [ComMetaModel objectWithKeyValues:[responseObject objectForKey:@"meta"]];
 //    NSString* msg = metaModel.msg;
 //    switch (metaModel.code) {
