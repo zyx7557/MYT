@@ -1,0 +1,17 @@
+//
+//  PrefixHeader.pch
+//  MYT
+//
+//  Created by Qingqing on 15/12/7.
+//  Copyright (c) 2015年 YunRui. All rights reserved.
+//
+
+#ifndef MYT_PrefixHeader_pch
+#define MYT_PrefixHeader_pch
+
+#import "UIButton+Loading.h"
+#import "UIImageView+Loading.h"
+#import "UIViewController+Helper.h"
+#import "QQRequestManager.h"
+
+#endif
